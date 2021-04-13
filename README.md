@@ -3,7 +3,7 @@
 
 ⭐ Train an LSTM to solve the XOR problem: that is, given a sequence of bits, determine its parity. The LSTM should consume the sequence, one bit at a time, and then output the correct answer at the sequence’s end. Test the two approaches below:
 
-Instead of a many-to-one sequence to parity model, I wrote a many-to-many sequence to cumulative parities model.
+Instead of a many-to-one sequence to parity model, I wrote a many-to-many model: sequence to cumulative parities.
 
 ### Generate a dataset of random 100,000 binary strings of length 50. Train the LSTM.
 
